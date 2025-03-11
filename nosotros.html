@@ -1,344 +1,667 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="https://puntoazul.nerdstudiolab.com/img/puntoazul_favicon.png">
-    <meta name="description" content="Punto Azul, una gran familia dedicada a brindarles la mejor experiencia culinaria con la pasión que nos caracteriza. Cada una de las personas en nuestro equipo">
-    <meta property="og:image" content="https://puntoazul.nerdstudiolab.com/img/puntoazul_metaimage.jpg">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://puntoazul.nerdstudiolab.com/img/puntoazul_favicon.png"
+    />
+    <meta
+      name="description"
+      content="Punto Azul, una gran familia dedicada a brindarles la mejor experiencia culinaria con la pasión que nos caracteriza. Cada una de las personas en nuestro equipo"
+    />
+    <meta
+      property="og:image"
+      content="https://puntoazul.nerdstudiolab.com/img/puntoazul_metaimage.jpg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styleEncuesta.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Nosotros | Restaurante Punto Azul</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <a href="home.html"><img src="img/logo.svg" alt=""></a>
-            </div>
-            <div class="nav">
-                <div class="idioma">
-                    <ul>
-                        <li class="select">
-                            <img src="img/bandera-peru.svg" alt=""><span>Perú</span>
-                            <ul>
-                                <li>
-                                    <a href="coming-soon.html"><img src="img/bandera-usa.svg" alt=""><span>United States</span></a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <button>
-                    <img src="img/menu.svg" alt="">
-                    <img src="img/menu-close.svg" alt="" class="close">
-                </button>
-            </div>
+      <div class="container">
+        <div class="logo">
+          <a href="home.html"><img src="img/logo.svg" alt="" /></a>
         </div>
+        <div class="nav">
+          <div class="idioma">
+            <ul>
+              <li class="select">
+                <img src="img/bandera-peru.svg" alt="" /><span>Perú</span>
+                <ul>
+                  <li>
+                    <a href="coming-soon.html"
+                      ><img src="img/bandera-usa.svg" alt="" /><span
+                        >United States</span
+                      ></a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <button>
+            <img src="img/menu.svg" alt="" />
+            <img src="img/menu-close.svg" alt="" class="close" />
+          </button>
+        </div>
+      </div>
     </header>
     <main>
-        <a href="https://wa.me/5114801165?text=Hola, quisiera hacer un pedido o reserva" target="_blank" class="btnWhatsApp" data-aos="fade-zoom-in"
-        data-aos-easing="ease-in-back" data-aos-once="true"><span>Reservas y pedidos</span><svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <mask id="path-1-inside-1_347_6709" fill="white">
-            <path d="M0.194776 11.5234C0.194244 13.444 0.696086 15.3194 1.65033 16.9723L0.103516 22.62L5.8832 21.1046C7.48179 21.9748 9.27289 22.4308 11.093 22.4309H11.0978C17.1063 22.4309 21.9974 17.5416 22 11.532C22.0012 8.61991 20.8681 5.88158 18.8095 3.82141C16.7513 1.76141 14.0139 0.626329 11.0973 0.625C5.08809 0.625 0.197345 5.51406 0.194864 11.5234"/>
-            </mask>
-            <path d="M1.65033 16.9723L2.61481 17.2365L2.72508 16.8339L2.51638 16.4724L1.65033 16.9723ZM0.103516 22.62L-0.860964 22.3559L-1.31858 24.0267L0.357145 23.5873L0.103516 22.62ZM5.8832 21.1046L6.36134 20.2263L6.0131 20.0367L5.62957 20.1373L5.8832 21.1046ZM11.093 22.4309L11.0929 23.4309H11.093V22.4309ZM22 11.532L23 11.5324V11.5324L22 11.532ZM18.8095 3.82141L18.1021 4.52821L18.1021 4.52824L18.8095 3.82141ZM11.0973 0.625L11.0978 -0.375H11.0973V0.625ZM-0.805224 11.5231C-0.805804 13.6187 -0.258104 15.6667 0.784283 17.4723L2.51638 16.4724C1.65028 14.9721 1.19429 13.2694 1.19478 11.5237L-0.805224 11.5231ZM0.68585 16.7082L-0.860964 22.3559L1.068 22.8842L2.61481 17.2365L0.68585 16.7082ZM0.357145 23.5873L6.13683 22.0719L5.62957 20.1373L-0.150113 21.6527L0.357145 23.5873ZM5.40507 21.9828C7.15034 22.933 9.1058 23.4308 11.0929 23.4309L11.0931 21.4309C9.43997 21.4308 7.81323 21.0167 6.36134 20.2263L5.40507 21.9828ZM11.093 23.4309H11.0978V21.4309H11.093V23.4309ZM11.0978 23.4309C17.6586 23.4309 22.9972 18.0941 23 11.5324L21 11.5316C20.9977 16.9892 16.5541 21.4309 11.0978 21.4309V23.4309ZM23 11.5324C23.0013 8.35507 21.7629 5.36234 19.5169 3.11457L18.1021 4.52824C19.9733 6.40082 21.001 8.88476 21 11.5316L23 11.5324ZM19.5169 3.1146C17.2711 0.866806 14.2793 -0.37355 11.0978 -0.375L11.0969 1.625C13.7486 1.62621 16.2315 2.65601 18.1021 4.52821L19.5169 3.1146ZM11.0973 -0.375C4.53592 -0.375 -0.802427 4.96157 -0.805136 11.523L1.19486 11.5238C1.19712 6.06655 5.64026 1.625 11.0973 1.625V-0.375Z" fill="#00BDF2" mask="url(#path-1-inside-1_347_6709)"/>
-            <path d="M8.27649 6.80017C8.06508 6.33032 7.8426 6.32084 7.64157 6.3126C7.47694 6.30551 7.28875 6.30604 7.10074 6.30604C6.91255 6.30604 6.60678 6.37683 6.34833 6.65903C6.08961 6.94149 5.3606 7.62408 5.3606 9.01239C5.3606 10.4008 6.37181 11.7425 6.51278 11.9309C6.65392 12.119 8.46494 15.0592 11.3332 16.1903C13.7169 17.1303 14.202 16.9433 14.7194 16.8962C15.2368 16.8492 16.389 16.2138 16.624 15.5548C16.8593 14.896 16.8593 14.3313 16.7888 14.2132C16.7182 14.0957 16.53 14.025 16.2478 13.884C15.9655 13.7428 14.5782 13.0602 14.3196 12.966C14.0609 12.8719 13.8728 12.8249 13.6846 13.1075C13.4964 13.3896 12.956 14.025 12.7913 14.2132C12.6268 14.4019 12.462 14.4254 12.1799 14.2842C11.8976 14.1426 10.9888 13.845 9.91058 12.8838C9.07169 12.1358 8.50535 11.2121 8.34072 10.9296C8.1761 10.6474 8.32309 10.4945 8.46459 10.3539C8.59138 10.2275 8.74688 10.0244 8.88811 9.85969C9.02881 9.69489 9.07577 9.57731 9.16986 9.38912C9.26405 9.20076 9.21691 9.03596 9.14647 8.89481C9.07577 8.75367 8.52741 7.3581 8.27649 6.80017Z" fill="#00BDF2"/>
-            </svg></a>
-            <section class="menumovil">
-                <div class="container">
-                    <div class="content">
-                        <ul>
-                            <li><a href="home.html">Inicio</a></li>
-                            <li><a href="nosotros.html">Nosotros</a></li>
-                            <li class="flex">Cartas
-                                <ul>
-                                    <li><a href="carta-dia.html">Día</a></li>
-                                    <li><a href="carta-noche.html">Noche</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="planta.html">Planta</a></li>
-                            <li><a href="contacto.html">Contacto</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        <section class="nosotrosPage2">
-            <div class="container">
-                <div class="title">
-                    <div class="part1">
-                        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Trazando un legado</h1>
-                        <div class="contentText textoblur izquierda" data-aos="" data-aos-once="true">
-                            <p>Desde 1992, Punto Azul viene marcando un hito en la escena culinaria peruana cubriendo las expectativas principales de sus visitantes: misma calidad, buena atención y excelente sazón, ¡siempre!</p>
-                        </div>
-                    </div>
-                    <div class="part2" data-aos="fade-zoom-in"
-                    data-aos-easing="ease-in-back" data-aos-duration="1500" data-aos-once="true">
-                        <img src="img/restaurante.png" alt="" >
-                    </div>
-                </div>
+      <a
+        href="https://wa.me/5114801165?text=Hola, quisiera hacer un pedido o reserva"
+        target="_blank"
+        class="btnWhatsApp"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-once="true"
+        ><span>Reservas y pedidos</span
+        ><svg
+          width="22"
+          height="23"
+          viewBox="0 0 22 23"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <mask id="path-1-inside-1_347_6709" fill="white">
+            <path
+              d="M0.194776 11.5234C0.194244 13.444 0.696086 15.3194 1.65033 16.9723L0.103516 22.62L5.8832 21.1046C7.48179 21.9748 9.27289 22.4308 11.093 22.4309H11.0978C17.1063 22.4309 21.9974 17.5416 22 11.532C22.0012 8.61991 20.8681 5.88158 18.8095 3.82141C16.7513 1.76141 14.0139 0.626329 11.0973 0.625C5.08809 0.625 0.197345 5.51406 0.194864 11.5234"
+            />
+          </mask>
+          <path
+            d="M1.65033 16.9723L2.61481 17.2365L2.72508 16.8339L2.51638 16.4724L1.65033 16.9723ZM0.103516 22.62L-0.860964 22.3559L-1.31858 24.0267L0.357145 23.5873L0.103516 22.62ZM5.8832 21.1046L6.36134 20.2263L6.0131 20.0367L5.62957 20.1373L5.8832 21.1046ZM11.093 22.4309L11.0929 23.4309H11.093V22.4309ZM22 11.532L23 11.5324V11.5324L22 11.532ZM18.8095 3.82141L18.1021 4.52821L18.1021 4.52824L18.8095 3.82141ZM11.0973 0.625L11.0978 -0.375H11.0973V0.625ZM-0.805224 11.5231C-0.805804 13.6187 -0.258104 15.6667 0.784283 17.4723L2.51638 16.4724C1.65028 14.9721 1.19429 13.2694 1.19478 11.5237L-0.805224 11.5231ZM0.68585 16.7082L-0.860964 22.3559L1.068 22.8842L2.61481 17.2365L0.68585 16.7082ZM0.357145 23.5873L6.13683 22.0719L5.62957 20.1373L-0.150113 21.6527L0.357145 23.5873ZM5.40507 21.9828C7.15034 22.933 9.1058 23.4308 11.0929 23.4309L11.0931 21.4309C9.43997 21.4308 7.81323 21.0167 6.36134 20.2263L5.40507 21.9828ZM11.093 23.4309H11.0978V21.4309H11.093V23.4309ZM11.0978 23.4309C17.6586 23.4309 22.9972 18.0941 23 11.5324L21 11.5316C20.9977 16.9892 16.5541 21.4309 11.0978 21.4309V23.4309ZM23 11.5324C23.0013 8.35507 21.7629 5.36234 19.5169 3.11457L18.1021 4.52824C19.9733 6.40082 21.001 8.88476 21 11.5316L23 11.5324ZM19.5169 3.1146C17.2711 0.866806 14.2793 -0.37355 11.0978 -0.375L11.0969 1.625C13.7486 1.62621 16.2315 2.65601 18.1021 4.52821L19.5169 3.1146ZM11.0973 -0.375C4.53592 -0.375 -0.802427 4.96157 -0.805136 11.523L1.19486 11.5238C1.19712 6.06655 5.64026 1.625 11.0973 1.625V-0.375Z"
+            fill="#00BDF2"
+            mask="url(#path-1-inside-1_347_6709)"
+          />
+          <path
+            d="M8.27649 6.80017C8.06508 6.33032 7.8426 6.32084 7.64157 6.3126C7.47694 6.30551 7.28875 6.30604 7.10074 6.30604C6.91255 6.30604 6.60678 6.37683 6.34833 6.65903C6.08961 6.94149 5.3606 7.62408 5.3606 9.01239C5.3606 10.4008 6.37181 11.7425 6.51278 11.9309C6.65392 12.119 8.46494 15.0592 11.3332 16.1903C13.7169 17.1303 14.202 16.9433 14.7194 16.8962C15.2368 16.8492 16.389 16.2138 16.624 15.5548C16.8593 14.896 16.8593 14.3313 16.7888 14.2132C16.7182 14.0957 16.53 14.025 16.2478 13.884C15.9655 13.7428 14.5782 13.0602 14.3196 12.966C14.0609 12.8719 13.8728 12.8249 13.6846 13.1075C13.4964 13.3896 12.956 14.025 12.7913 14.2132C12.6268 14.4019 12.462 14.4254 12.1799 14.2842C11.8976 14.1426 10.9888 13.845 9.91058 12.8838C9.07169 12.1358 8.50535 11.2121 8.34072 10.9296C8.1761 10.6474 8.32309 10.4945 8.46459 10.3539C8.59138 10.2275 8.74688 10.0244 8.88811 9.85969C9.02881 9.69489 9.07577 9.57731 9.16986 9.38912C9.26405 9.20076 9.21691 9.03596 9.14647 8.89481C9.07577 8.75367 8.52741 7.3581 8.27649 6.80017Z"
+            fill="#00BDF2"
+          /></svg
+      ></a>
+      <section class="menumovil">
+        <div class="container">
+          <div class="content">
+            <ul>
+              <li><a href="home.html">Inicio</a></li>
+              <li><a href="nosotros.html">Nosotros</a></li>
+              <li class="flex">
+                Cartas
+                <ul>
+                  <li><a href="carta-dia.html">Día</a></li>
+                  <li><a href="carta-noche.html">Noche</a></li>
+                </ul>
+              </li>
+              <li><a href="planta.html">Planta</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="nosotrosPage2">
+        <div class="container">
+          <div class="title">
+            <div class="part1">
+              <h1
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-once="true"
+              >
+                Trazando un legado
+              </h1>
+              <div
+                class="contentText textoblur izquierda"
+                data-aos=""
+                data-aos-once="true"
+              >
+                <p>
+                  Desde 1992, Punto Azul viene marcando un hito en la escena
+                  culinaria peruana cubriendo las expectativas principales de
+                  sus visitantes: misma calidad, buena atención y excelente
+                  sazón, ¡siempre!
+                </p>
+              </div>
             </div>
-        </section>
-        <section class="proposito">
-            <div class="container">
-                <div class="part1">
-                    <img src="img/img-nosotros.webp" alt="" data-aos="" class="animacionBlur" data-aos-duration="1000" data-aos-offset="300">
-                </div>
-                <div class="part2">
-                    <h2 data-aos="" class="textoblur derecha" data-aos-once="true">Nuestro propósito</h2>
-                    <div data-aos="" class="contentText textoblur derecha" data-aos-once="true">
-                        <p>Queremos ser referentes de la buena comida y servicio en el Perú, manteniendo los principios y valores que nos rigen desde el día en el que nació el sueño Punto Azul:</p>
-                        <p>Mantener la calidad de nuestros productos, brindar un excelente servicio, mejorar contínuamente y sobretodo crear un ambiente cálido y cómodo, no solo para nuestros visitantes, sino también para todos los que forman parte de la gran familia Punto Azul.</p>
-                    </div>
-                </div>
+            <div
+              class="part2"
+              data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-duration="1500"
+              data-aos-once="true"
+            >
+              <img src="img/restaurante.png" alt="" />
             </div>
-        </section>
-        <section class="misionvision">
-            <div class="container">
-                <div class="part1">
-                    <h2 data-aos="" class="textoblur izquierda" data-aos-once="true">Misión</h2>
-                    <p data-aos="" class="textoblur izquierda" data-aos-once="true">Excelencia en comida marina con ingredientes de calidad, en un ambiente agradable. Nuestro equipo comprometido busca proporcionar servicio y satisfacción excepcionales.</p>
-                </div>
-                <div class="part2">
-                    <h2 data-aos="" class="textoblur derecha" data-aos-once="true">Visión</h2>
-                    <p data-aos="" class="textoblur derecha" data-aos-once="true">Ser reconocidos como el mejor restaurante de comida marina a nivel nacional, por los altos estándares de calidad en el servicio, innovación en el mercado y creando experiencias agradables al paladar de nuestros clientes.</p>
-                </div>
+          </div>
+        </div>
+      </section>
+      <section class="proposito">
+        <div class="container">
+          <div class="part1">
+            <img
+              src="img/img-nosotros.webp"
+              alt=""
+              data-aos=""
+              class="animacionBlur"
+              data-aos-duration="1000"
+              data-aos-offset="300"
+            />
+          </div>
+          <div class="part2">
+            <h2 data-aos="" class="textoblur derecha" data-aos-once="true">
+              Nuestro propósito
+            </h2>
+            <div
+              data-aos=""
+              class="contentText textoblur derecha"
+              data-aos-once="true"
+            >
+              <p>
+                Queremos ser referentes de la buena comida y servicio en el
+                Perú, manteniendo los principios y valores que nos rigen desde
+                el día en el que nació el sueño Punto Azul:
+              </p>
+              <p>
+                Mantener la calidad de nuestros productos, brindar un excelente
+                servicio, mejorar contínuamente y sobretodo crear un ambiente
+                cálido y cómodo, no solo para nuestros visitantes, sino también
+                para todos los que forman parte de la gran familia Punto Azul.
+              </p>
             </div>
-        </section>
-        <section class="contentMarquee" data-aos="fade-zoom-in" data-aos-once="true" data-aos-duration="1500">
-            <div class="marquee">
-                <span>FAMOSOS POR NUESTRA SAZÓN</span>
-                <span><div class="circulo"></div></span>
-                <span>Frescura del océano en tu mesa</span>
-                <span><div class="circulo"></div></span>
-                <span>FAMOSOS POR NUESTRA SAZÓN</span>
-                <span><div class="circulo"></div></span>
-                <span>Frescura del océano en tu mesa</span>
-                <span><div class="circulo"></div></span>
+          </div>
+        </div>
+      </section>
+      <section class="misionvision">
+        <div class="container">
+          <div class="part1">
+            <h2 data-aos="" class="textoblur izquierda" data-aos-once="true">
+              Misión
+            </h2>
+            <p data-aos="" class="textoblur izquierda" data-aos-once="true">
+              Excelencia en comida marina con ingredientes de calidad, en un
+              ambiente agradable. Nuestro equipo comprometido busca proporcionar
+              servicio y satisfacción excepcionales.
+            </p>
+          </div>
+          <div class="part2">
+            <h2 data-aos="" class="textoblur derecha" data-aos-once="true">
+              Visión
+            </h2>
+            <p data-aos="" class="textoblur derecha" data-aos-once="true">
+              Ser reconocidos como el mejor restaurante de comida marina a nivel
+              nacional, por los altos estándares de calidad en el servicio,
+              innovación en el mercado y creando experiencias agradables al
+              paladar de nuestros clientes.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="contentMarquee"
+        data-aos="fade-zoom-in"
+        data-aos-once="true"
+        data-aos-duration="1500"
+      >
+        <div class="marquee">
+          <span>FAMOSOS POR NUESTRA SAZÓN</span>
+          <span><div class="circulo"></div></span>
+          <span>Frescura del océano en tu mesa</span>
+          <span><div class="circulo"></div></span>
+          <span>FAMOSOS POR NUESTRA SAZÓN</span>
+          <span><div class="circulo"></div></span>
+          <span>Frescura del océano en tu mesa</span>
+          <span><div class="circulo"></div></span>
+        </div>
+      </section>
+      <section class="historia">
+        <div class="container">
+          <div class="title">
+            <h2 data-aos="" class="textoblur izquierda" data-aos-once="true">
+              Nuestra historia
+            </h2>
+            <div
+              data-aos=""
+              class="textoblur derecha flechas"
+              data-aos-once="true"
+            >
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
-        </section>
-        <section class="historia">
-            <div class="container">
-                <div class="title">
-                    <h2 data-aos="" class="textoblur izquierda" data-aos-once="true">Nuestra historia</h2>
-                    <div data-aos="" class="textoblur derecha flechas" data-aos-once="true">
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
+          </div>
+          <div class="contentSlider" data-aos="" data-aos-once="true">
+            <div class="swiper sliderHistoria">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide itemHistoria">
+                  <div class="icono"></div>
+                  <h3
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    2019
+                  </h3>
+                  <p
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    Se presentó la oportunidad de seguir apostando por el barrio
+                    de Miraflores pero este vez , en una zona con una magia
+                    entre turismo y público ejecutivo. Aquí consolidamos nuestra
+                    experiencia de más de 3 décadas enamorando a más familias
+                    del Perú y del mundo.
+                  </p>
                 </div>
-                <div class="contentSlider" data-aos="" data-aos-once="true">
-                    <div class="swiper sliderHistoria">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide itemHistoria">
-                                <div class="icono">
-                                </div>
-                                <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">2019</h3>
-                                <p data-aos="" class="textoblur izquierda" data-aos-once="true">Se presentó la oportunidad de seguir apostando por el barrio de Miraflores pero este vez , en una zona con una magia entre turismo y público ejecutivo. Aquí consolidamos nuestra experiencia de más de 3 décadas enamorando a más familias del Perú y del mundo.</p>
-                            </div>
-                            <div class="swiper-slide itemHistoria">
-                                <div class="icono">
-                                </div>
-                                <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">2013</h3>
-                                <p data-aos="" class="textoblur izquierda" data-aos-once="true">Luego de experimentar la gestión de 5 restaurantes, tuvimos el impulso de explorar nuevos mercados y públicos objetivos . La apertura del restaurante número 6 en Chacarilla Surco, dio pie a seguir fortaleciendo la marca Punto Azul.</p>
-                            </div>
-                            <div class="swiper-slide itemHistoria">
-                                <div class="icono">
-                                </div>
-                                <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">2006</h3>
-                                <p data-aos="" class="textoblur izquierda" data-aos-once="true">Las tendencias de los consumidores por seguir descubriendo nuevas propuestas gastronómicas , nos hizo tomar la decisión de abrir un restaurante más en el barrio de Miraflores pero esta vez, en una zona residencial. Platos nuevos en carta , vecinos nuevos, mayor exposición de la marca , fueron algunas de las experiencias que marcaron la apertura de este restaurante número 05.</p>
-                            </div>
-                            <div class="swiper-slide itemHistoria">
-                                <div class="icono">
-                                </div>
-                                <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">2004</h3>
-                                <p data-aos="" class="textoblur izquierda" data-aos-once="true">La gastronomía peruana, bendecida por su mixtura de insumos e influencias culturales, va fortaleciendo su fama internacional. Es así como se abre el restaurante número 04 de la marca en el barrio más turístico de la capital : “Miraflores”. Este espacio nos permitió conocer y cautivar los paladares del mundo.</p>
-                            </div>
-                            <div class="swiper-slide itemHistoria">
-                                <div class="icono">
-                                </div>
-                                <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">2000</h3>
-                                <p data-aos="" class="textoblur izquierda" data-aos-once="true">con un incremento en la demanda, confianza y respaldo de los consumidores, pudimos abrir el tercer restaurante, ubicado en el distrito de Surco. Estrategias de Marketing y fidelización, fueron herramientas claves para conquistar nuevos paladares.</p>
-                            </div>
-                            <div class="swiper-slide itemHistoria">
-                                <div class="icono">
-                                </div>
-                                <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">1997</h3>
-                                <p data-aos="" class="textoblur izquierda" data-aos-once="true">Se abre el segundo restaurante en el distrito de San Borja con una ampliación de la carta y un espacio más grande para la atención a nuestros comensales. Vivimos el gran reto y aprendizaje de gestionar una mayor oferta en nuestro menú y atención a un mayor número de clientes.</p>
-                            </div>
-                            <div class="swiper-slide itemHistoria">
-                                <div class="icono">
-                                </div>
-                                <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">1992</h3>
-                                <p data-aos="" class="textoblur izquierda" data-aos-once="true">Se abre en San Isidro el primer Punto Azul , enfocados en vender ceviches preparados al momento. En esa época, ya se vivía una importante influencia de la cultura Nikkei en la gastronomía Peruana. Aquí es donde empieza esta aventura culinaria en la historia de la marca.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="swiper-slide itemHistoria">
+                  <div class="icono"></div>
+                  <h3
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    2013
+                  </h3>
+                  <p
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    Luego de experimentar la gestión de 5 restaurantes, tuvimos
+                    el impulso de explorar nuevos mercados y públicos objetivos
+                    . La apertura del restaurante número 6 en Chacarilla Surco,
+                    dio pie a seguir fortaleciendo la marca Punto Azul.
+                  </p>
                 </div>
+                <div class="swiper-slide itemHistoria">
+                  <div class="icono"></div>
+                  <h3
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    2006
+                  </h3>
+                  <p
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    Las tendencias de los consumidores por seguir descubriendo
+                    nuevas propuestas gastronómicas , nos hizo tomar la decisión
+                    de abrir un restaurante más en el barrio de Miraflores pero
+                    esta vez, en una zona residencial. Platos nuevos en carta ,
+                    vecinos nuevos, mayor exposición de la marca , fueron
+                    algunas de las experiencias que marcaron la apertura de este
+                    restaurante número 05.
+                  </p>
+                </div>
+                <div class="swiper-slide itemHistoria">
+                  <div class="icono"></div>
+                  <h3
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    2004
+                  </h3>
+                  <p
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    La gastronomía peruana, bendecida por su mixtura de insumos
+                    e influencias culturales, va fortaleciendo su fama
+                    internacional. Es así como se abre el restaurante número 04
+                    de la marca en el barrio más turístico de la capital :
+                    “Miraflores”. Este espacio nos permitió conocer y cautivar
+                    los paladares del mundo.
+                  </p>
+                </div>
+                <div class="swiper-slide itemHistoria">
+                  <div class="icono"></div>
+                  <h3
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    2000
+                  </h3>
+                  <p
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    con un incremento en la demanda, confianza y respaldo de los
+                    consumidores, pudimos abrir el tercer restaurante, ubicado
+                    en el distrito de Surco. Estrategias de Marketing y
+                    fidelización, fueron herramientas claves para conquistar
+                    nuevos paladares.
+                  </p>
+                </div>
+                <div class="swiper-slide itemHistoria">
+                  <div class="icono"></div>
+                  <h3
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    1997
+                  </h3>
+                  <p
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    Se abre el segundo restaurante en el distrito de San Borja
+                    con una ampliación de la carta y un espacio más grande para
+                    la atención a nuestros comensales. Vivimos el gran reto y
+                    aprendizaje de gestionar una mayor oferta en nuestro menú y
+                    atención a un mayor número de clientes.
+                  </p>
+                </div>
+                <div class="swiper-slide itemHistoria">
+                  <div class="icono"></div>
+                  <h3
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    1992
+                  </h3>
+                  <p
+                    data-aos=""
+                    class="textoblur izquierda"
+                    data-aos-once="true"
+                  >
+                    Se abre en San Isidro el primer Punto Azul , enfocados en
+                    vender ceviches preparados al momento. En esa época, ya se
+                    vivía una importante influencia de la cultura Nikkei en la
+                    gastronomía Peruana. Aquí es donde empieza esta aventura
+                    culinaria en la historia de la marca.
+                  </p>
+                </div>
+              </div>
             </div>
-        </section>
-        <section class="chef">
-            <div class="container">
-                <h2 data-aos="" class="textoblur izquierda" data-aos-once="true">Nuestros chefs</h2>
-                <div class="contentItems">
-                    <div class="itemUbicacion">
-                        <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">Miraflores</h3>
-                        <div class="contentChef">
-                            <div class="itemChef">
-                                <div class="contentImg">
-                                    <img src="img/chef-jose-abelardo-quinonez-1.png" alt="" data-aos="" class="animacionBlur" data-aos-duration="1000" data-aos-offset="300">
-                                </div>
-                            </div>
-                            <div class="itemChef">
-                                <div class="contentImg">
-                                    <img src="img/chef-jose-arone-guzman-1.png" alt="" data-aos="" class="animacionBlur" data-aos-duration="1000" data-aos-offset="300">
-                                </div>
-                            </div>
-                            <div class="itemChef">
-                                <div class="contentImg">
-                                    <img src="img/chef-jordan-cortijo-1.png" alt="" data-aos="" class="animacionBlur" data-aos-duration="1000" data-aos-offset="300">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="itemUbicacion">
-                        <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">Surco</h3>
-                        <div class="contentChef">
-                            <div class="itemChef">
-                                <div class="contentImg">
-                                    <img src="img/chef-jorge-huerta-1.png" alt="" data-aos="" class="animacionBlur" data-aos-duration="1000" data-aos-offset="300">
-                                </div>
-                            </div>
-                            <div class="itemChef">
-                                <div class="contentImg">
-                                    <img src="img/chef-hector-fernandez-1.png" alt="" data-aos="" class="animacionBlur" data-aos-duration="1000" data-aos-offset="300">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="itemUbicacion">
-                        <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">San Isidro</h3>
-                        <div class="contentChef">
-                            <div class="itemChef">
-                                <div class="contentImg">
-                                    <img src="img/chef-vinancio-ynca-damiano-1.png" alt="" data-aos="" class="animacionBlur" data-aos-duration="1000" data-aos-offset="300">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          </div>
+        </div>
+      </section>
+      <section class="chef">
+        <div class="container">
+          <h2 data-aos="" class="textoblur izquierda" data-aos-once="true">
+            Nuestros chefs
+          </h2>
+          <div class="contentItems">
+            <div class="itemUbicacion">
+              <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">
+                Miraflores
+              </h3>
+              <div class="contentChef">
+                <div class="itemChef">
+                  <div class="contentImg">
+                    <img
+                      src="img/chef-jose-abelardo-quinonez-1.png"
+                      alt=""
+                      data-aos=""
+                      class="animacionBlur"
+                      data-aos-duration="1000"
+                      data-aos-offset="300"
+                    />
+                  </div>
                 </div>
+                <div class="itemChef">
+                  <div class="contentImg">
+                    <img
+                      src="img/chef-jose-arone-guzman-1.png"
+                      alt=""
+                      data-aos=""
+                      class="animacionBlur"
+                      data-aos-duration="1000"
+                      data-aos-offset="300"
+                    />
+                  </div>
+                </div>
+                <div class="itemChef">
+                  <div class="contentImg">
+                    <img
+                      src="img/chef-jordan-cortijo-1.png"
+                      alt=""
+                      data-aos=""
+                      class="animacionBlur"
+                      data-aos-duration="1000"
+                      data-aos-offset="300"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="itemUbicacion">
+              <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">
+                Surco
+              </h3>
+              <div class="contentChef">
+                <div class="itemChef">
+                  <div class="contentImg">
+                    <img
+                      src="img/chef-jorge-huerta-1.png"
+                      alt=""
+                      data-aos=""
+                      class="animacionBlur"
+                      data-aos-duration="1000"
+                      data-aos-offset="300"
+                    />
+                  </div>
+                </div>
+                <div class="itemChef">
+                  <div class="contentImg">
+                    <img
+                      src="img/chef-hector-fernandez-1.png"
+                      alt=""
+                      data-aos=""
+                      class="animacionBlur"
+                      data-aos-duration="1000"
+                      data-aos-offset="300"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="itemUbicacion">
+              <h3 data-aos="" class="textoblur izquierda" data-aos-once="true">
+                San Isidro
+              </h3>
+              <div class="contentChef">
+                <div class="itemChef">
+                  <div class="contentImg">
+                    <img
+                      src="img/chef-vinancio-ynca-damiano-1.png"
+                      alt=""
+                      data-aos=""
+                      class="animacionBlur"
+                      data-aos-duration="1000"
+                      data-aos-offset="300"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="container">
-            <div class="part1">
-                <div>
-                    <h3>Visítanos en:</h3>
-                    <div class="acordeon">
-                        <div class="item">
-                            <div class="cabecera">San Isidro</div>
-                            <div class="cuerpo">
-                                <a href="contacto.html#locales">
-                                    <img src="img/icon-ubicacion.svg" alt="">Esq. Javier Prado con Petit Thouars
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="cabecera">Santiago de Surco</div>
-                            <div class="cuerpo">
-                                <a href="contacto.html#locales">
-                                    <img src="img/icon-ubicacion.svg" alt="">Av. Primavera 2235
-                                </a>
-                                <a href="contacto.html#locales">
-                                    <img src="img/icon-ubicacion.svg" alt="">Av. Caminos del Inca 853
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="cabecera">Miraflores</div>
-                            <div class="cuerpo">
-                                <a href="contacto.html#locales">
-                                    <img src="img/icon-ubicacion.svg" alt="">Av. Benavides 2370
-                                </a>
-                                <a href="contacto.html#locales">
-                                    <img src="img/icon-ubicacion.svg" alt="">Ca. San Martín 595
-                                </a>
-                                <a href="contacto.html#locales">
-                                    <img src="img/icon-ubicacion.svg" alt="">Ca. Jorge Chávez 230
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="part1">
+          <div>
+            <h3>Visítanos en:</h3>
+            <div class="acordeon">
+              <div class="item">
+                <div class="cabecera">San Isidro</div>
+                <div class="cuerpo">
+                  <a href="contacto.html#locales">
+                    <img src="img/icon-ubicacion.svg" alt="" />Esq. Javier Prado
+                    con Petit Thouars
+                  </a>
                 </div>
-                <div>
-                    <div class="tab">
-                        <h4>Reservas y pedidos</h4>
-                        <ul class="datosReservaPedidos">
-                            <li><a href="tel:01 480 1165"><img src="img/icon-telefono-gris.svg" alt="">01 480 1165 (Central)</a></li>
-                            <li><a href="https://wa.me/5114801165?text=Hola, quisiera hacer un pedido o reserva" target="_blank"><img src="img/icon-whatsapp-gris.svg" alt="" class="gris"><img src="img/icon-whatsapp-azul.svg" alt="" class="azul">+51 1 4801165</a></li>
-                        </ul>
-                    </div>
+              </div>
+              <div class="item">
+                <div class="cabecera">Santiago de Surco</div>
+                <div class="cuerpo">
+                  <a href="contacto.html#locales">
+                    <img src="img/icon-ubicacion.svg" alt="" />Av. Primavera
+                    2235
+                  </a>
+                  <a href="contacto.html#locales">
+                    <img src="img/icon-ubicacion.svg" alt="" />Av. Caminos del
+                    Inca 853
+                  </a>
                 </div>
+              </div>
+              <div class="item">
+                <div class="cabecera">Miraflores</div>
+                <div class="cuerpo">
+                  <a href="contacto.html#locales">
+                    <img src="img/icon-ubicacion.svg" alt="" />Av. Benavides
+                    2370
+                  </a>
+                  <a href="contacto.html#locales">
+                    <img src="img/icon-ubicacion.svg" alt="" />Ca. San Martín
+                    595
+                  </a>
+                  <a href="contacto.html#locales">
+                    <img src="img/icon-ubicacion.svg" alt="" />Ca. Jorge Chávez
+                    230
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="logo">
-                <a href=""><img src="img/logo.svg" alt=""></a>
-                <div class="linea">                    
-                </div>
+          </div>
+          <div>
+            <div class="tab">
+              <h4>Reservas y pedidos</h4>
+              <ul class="datosReservaPedidos">
+                <li>
+                  <a href="tel:01 480 1165"
+                    ><img src="img/icon-telefono-gris.svg" alt="" />01 480 1165
+                    (Central)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://wa.me/5114801165?text=Hola, quisiera hacer un pedido o reserva"
+                    target="_blank"
+                    ><img
+                      src="img/icon-whatsapp-gris.svg"
+                      alt=""
+                      class="gris"
+                    /><img
+                      src="img/icon-whatsapp-azul.svg"
+                      alt=""
+                      class="azul"
+                    />+51 1 4801165</a
+                  >
+                </li>
+              </ul>
             </div>
-            <div class="part2">
-                <div class="part2-1">
-                    <div>
-                        <div class="tab">
-                            <h4>Datos de contacto:</h4>
-                            <ul>
-                                <li><a href="mailto:contacto@puntoazul.pe"><img src="img/icon-carta.svg" alt="">info@puntoazulrestaurante.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="siguenos">
-                        <h4>Síguenos en:</h4>
-                        <div class="redes">
-                            <a href="https://www.facebook.com/PuntoAzul.Restaurante" target="_blank"><img src="img/icon-facebook.svg" alt=""></a>
-                            <a href="https://www.instagram.com/puntoazulperu/?hl=es" target="_blank"><img src="img/icon-instagram.svg" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="part2-2">
-                    <div class="tab">
-                        <h4>Menú</h4>
-                        <ul>
-                            <li><a href="nosotros.html">Nosotros</a></li>
-                            <li><a href="carta-dia.html">Carta</a></li>
-                            <li><a href="planta.html">Planta</a></li>
-                            <li><a href="contacto.html">Contáctanos</a></li>
-                            <li><a href="trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
-                        </ul>
-                    </div>
-                    <div class="siguenos">
-                        <h4>Síguenos en:</h4>
-                        <div class="redes">
-                            <a href="https://www.facebook.com/PuntoAzul.Restaurante" target="_blank"><img src="img/icon-facebook.svg" alt=""></a>
-                            <a href="https://www.instagram.com/puntoazulperu/?hl=es" target="_blank"><img src="img/icon-instagram.svg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="legales">
-                        <a href="politicas-de-privacidad-general.html">Política de privacidad</a>
-                        <a href="libro-de-reclamaciones.html">Libro de reclamaciones</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="container pie">
-            <p>Punto Azul - ©2024 Todos lo derechos reservados</p>
-            <p>Made with<img src="img/ion_heart.svg" alt=""><a href="https://nerdmedia.pe/" target="_blank"><img src="img/icon-nerd.svg" alt=""></a></p>
+        <div class="logo">
+          <a href=""><img src="img/logo.svg" alt="" /></a>
+          <div class="linea"></div>
         </div>
+        <div class="part2">
+          <div class="part2-1">
+            <div>
+              <div class="tab">
+                <h4>Datos de contacto:</h4>
+                <ul>
+                  <li>
+                    <a href="mailto:contacto@puntoazul.pe"
+                      ><img
+                        src="img/icon-carta.svg"
+                        alt=""
+                      />info@puntoazulrestaurante.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="siguenos">
+              <h4>Síguenos en:</h4>
+              <div class="redes">
+                <a
+                  href="https://www.facebook.com/PuntoAzul.Restaurante"
+                  target="_blank"
+                  ><img src="img/icon-facebook.svg" alt=""
+                /></a>
+                <a
+                  href="https://www.instagram.com/puntoazulperu/?hl=es"
+                  target="_blank"
+                  ><img src="img/icon-instagram.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="part2-2">
+            <div class="tab">
+              <h4>Menú</h4>
+              <ul>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="carta-dia.html">Carta</a></li>
+                <li><a href="planta.html">Planta</a></li>
+                <li><a href="contacto.html">Contáctanos</a></li>
+                <li>
+                  <a href="trabaja-con-nosotros.html">Trabaja con nosotros</a>
+                </li>
+              </ul>
+            </div>
+            <div class="siguenos">
+              <h4>Síguenos en:</h4>
+              <div class="redes">
+                <a
+                  href="https://www.facebook.com/PuntoAzul.Restaurante"
+                  target="_blank"
+                  ><img src="img/icon-facebook.svg" alt=""
+                /></a>
+                <a
+                  href="https://www.instagram.com/puntoazulperu/?hl=es"
+                  target="_blank"
+                  ><img src="img/icon-instagram.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="legales">
+              <a href="politicas-de-privacidad-general.html"
+                >Política de privacidad</a
+              >
+              <a href="libro-de-reclamaciones.html">Libro de reclamaciones</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container pie">
+        <p>Punto Azul - ©2024 Todos lo derechos reservados</p>
+        <p>
+          Made with<img src="img/ion_heart.svg" alt="" /><a
+            href="https://nerdmedia.pe/"
+            target="_blank"
+            ><img src="img/icon-nerd.svg" alt=""
+          /></a>
+        </p>
+      </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/jquery.marquee.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/leafo/sticky-kit@v1.1.2/jquery.sticky-kit.min.js" id="sticky-js-js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/gh/leafo/sticky-kit@v1.1.2/jquery.sticky-kit.min.js"
+      id="sticky-js-js"
+    ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js?ver=2018121121"
       id="gsap-js-js"
@@ -349,5 +672,5 @@
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>

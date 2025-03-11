@@ -1,1 +1,34 @@
 @import "tailwindcss";
+@tailwind base;
+
+@layer base {
+  img,
+  video,
+  svg {
+    all: unset;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    all: unset;
+    font: inherit;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span {
+    all: unset;
+  }
+
+  .container {
+    max-width: none;
+    padding: 0;
+  }
+}
