@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./css/tailwind.css -o ./css/styleEncuesta.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.0.12",
+    "@tailwindcss/cli": "^4.0.12"
+  }
+}
