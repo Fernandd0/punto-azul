@@ -1,19 +1,28 @@
 @import "tailwindcss";
-@tailwind base;
 
 @layer base {
+  :root {
+    --fuente-averia: "Averia Libre", system-ui;
+    --fuente-titillium: "Titillium Web", sans-serif;
+    --fuente-alegreya: "Alegreya Sans", sans-serif;
+  }
+
+  .font-averia {
+    font-family: var(--fuente-averia);
+  }
+
+  .font-titillium {
+    font-family: var(--fuente-titillium);
+  }
+
+  .font-alegreya {
+    font-family: var(--fuente-alegreya);
+  }
+
   img,
   video,
   svg {
     all: unset;
-  }
-
-  button,
-  input,
-  textarea,
-  select {
-    all: unset;
-    font: inherit;
   }
 
   h1,
@@ -21,9 +30,7 @@
   h3,
   h4,
   h5,
-  h6,
-  p,
-  span {
+  h6 {
     all: unset;
   }
 

@@ -23,7 +23,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/styleEncuesta.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Contacto | Restaurante Punto Azul</title>
+    <title>Encuesta | Restaurante Punto Azul</title>
   </head>
   <body>
     <header>
@@ -108,52 +108,144 @@
       <section class="pageContact">
         <div class="container">
           <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-            Contáctate con nosotros
+            Tu opinión importa
           </h1>
           <div class="content">
-            <div class="part1">
+            <div class="part1 !pr-[0px]">
               <div
                 data-aos=""
                 class="formulario textoblur izquierda"
                 data-aos-once="true"
               >
-                <form action="gracias.html">
+                <div>
+                  <p class="text-[#323232] !pb-6 font-titillium">
+                    ¡Saludos! Gracias por visitar Punto Azul. Nos encantaría
+                    saber tu opinión. Por favor, tómate un minuto para completar
+                    la siguiente encuesta. ¡Tu feedback nos ayuda a mejorar!
+                  </p>
+                  <p class="text-[#323232] !mb-10 lg:!mb-20 font-titillium">
+                    ¡Gracias por su tiempo! Su opinión es muy importante para
+                    nosotros.
+                  </p>
+                </div>
+                <form action="gracias-encuesta.html">
                   <fieldset>
-                    <input
-                      type="text"
-                      name="your-name"
-                      id="your-name"
-                      placeholder="Nombre completo:"
-                    />
-                    <input
-                      type="email"
-                      name="correo"
-                      id="correo"
-                      placeholder="Email:"
-                    />
-                    <input
-                      type="number"
-                      name="numero"
-                      id="numero"
-                      placeholder="Teléfono"
-                    />
-                    <textarea
-                      name="mensaje"
-                      id=""
-                      cols="30"
-                      rows="10"
-                      placeholder="Mensaje:"
-                    ></textarea>
-                    <div class="checkbox">
-                      <input type="checkbox" name="" id="" />
-                      <p>
-                        He leído y acepto las
-                        <a
-                          href="politicas-de-privacidad-general.html"
-                          target="_blank"
-                          >políticas y privacidad</a
+                    <div class="">
+                      <h3
+                        class="font-titillium text-[#0072BC] text-[20px] md:text-[24px] xl:text-[34px] leading-[32px] font-[400]"
+                      >
+                        ¿Qué tan probable es que recomiende a Punto Azul a un
+                        amigo o familiar?
+                      </h3>
+                      <div class="text-center !my-[50px] w-full">
+                        <input type="hidden" name="rating" id="rating-value" />
+                        <div
+                          class="flex space-x-2 justify-between !mb-3 !max-w-none md:!max-w-[90%] w-full !mx-auto"
                         >
-                      </p>
+                          <button
+                            type="button"
+                            class="rating-btn !w-7 !h-7 sm:!w-8 sm:!h-8 xl:!w-10 xl:!h-10 !rounded-full border !bg-white !text-[#323232] hover:!text-white hover:!bg-[#0072BC] transition-colors duration-200"
+                            data-value="0"
+                          >
+                            0
+                          </button>
+                          <button
+                            type="button"
+                            class="rating-btn !w-7 !h-7 sm:!w-8 sm:!h-8 xl:!w-10 xl:!h-10 !rounded-full border !bg-white !text-[#323232] hover:!text-white hover:!bg-[#0072BC] transition-colors duration-200"
+                            data-value="1"
+                          >
+                            1
+                          </button>
+                          <button
+                            type="button"
+                            class="rating-btn !w-7 !h-7 sm:!w-8 sm:!h-8 xl:!w-10 xl:!h-10 !rounded-full border !bg-white !text-[#323232] hover:!text-white hover:!bg-[#0072BC] transition-colors duration-200"
+                            data-value="2"
+                          >
+                            2
+                          </button>
+                          <button
+                            type="button"
+                            class="rating-btn !w-7 !h-7 sm:!w-8 sm:!h-8 xl:!w-10 xl:!h-10 !rounded-full border !bg-white !text-[#323232] hover:!text-white hover:!bg-[#0072BC] transition-colors duration-200"
+                            data-value="3"
+                          >
+                            3
+                          </button>
+                          <button
+                            type="button"
+                            class="rating-btn !w-7 !h-7 sm:!w-8 sm:!h-8 xl:!w-10 xl:!h-10 !rounded-full border !bg-white !text-[#323232] hover:!text-white hover:!bg-[#0072BC] transition-colors duration-200"
+                            data-value="4"
+                          >
+                            4
+                          </button>
+                          <button
+                            type="button"
+                            class="rating-btn !w-7 !h-7 sm:!w-8 sm:!h-8 xl:!w-10 xl:!h-10 !rounded-full border !bg-white !text-[#323232] hover:!text-white hover:!bg-[#0072BC] transition-colors duration-200"
+                            data-value="5"
+                          >
+                            5
+                          </button>
+                          <button
+                            type="button"
+                            class="rating-btn !w-7 !h-7 sm:!w-8 sm:!h-8 xl:!w-10 xl:!h-10 !rounded-full border !bg-white !text-[#323232] hover:!text-white hover:!bg-[#0072BC] transition-colors duration-200"
+                            data-value="6"
+                          >
+                            6
+                          </button>
+                          <button
+                            type="button"
+                            class="rating-btn !w-7 !h-7 sm:!w-8 sm:!h-8 xl:!w-10 xl:!h-10 !rounded-full border !bg-white !text-[#323232] hover:!text-white hover:!bg-[#0072BC] transition-colors duration-200"
+                            data-value="7"
+                          >
+                            7
+                          </button>
+                          <button
+                            type="button"
+                            class="rating-btn !w-7 !h-7 sm:!w-8 sm:!h-8 xl:!w-10 xl:!h-10 !rounded-full border !bg-white !text-[#323232] hover:!text-white hover:!bg-[#0072BC] transition-colors duration-200"
+                            data-value="8"
+                          >
+                            8
+                          </button>
+                          <button
+                            type="button"
+                            class="rating-btn !w-7 !h-7 sm:!w-8 sm:!h-8 xl:!w-10 xl:!h-10 !rounded-full border !bg-white !text-[#323232] hover:!text-white hover:!bg-[#0072BC] transition-colors duration-200"
+                            data-value="9"
+                          >
+                            9
+                          </button>
+                          <button
+                            type="button"
+                            class="rating-btn !w-7 !h-7 sm:!w-8 sm:!h-8 xl:!w-10 xl:!h-10 !rounded-full border !bg-white !text-[#323232] hover:!text-white hover:!bg-[#0072BC] transition-colors duration-200"
+                            data-value="10"
+                          >
+                            10
+                          </button>
+                        </div>
+                        <div
+                          class="flex justify-between text-sm text-[#323232] !max-w-none md:!max-w-[90%] w-full !mx-auto"
+                        >
+                          <span>0 - No lo recomiendo</span>
+                          <span>10 - Muy recomendable</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <h3
+                        class="font-titillium text-[#0072BC] text-[20px] md:text-[24px] xl:text-[34px] leading-[32px] font-[400]"
+                      >
+                        ¿Cuál es la principal razón por la que nos otorga esa
+                        puntuación?
+                      </h3>
+                      <div class="!w-full md:!w-[90%] xl:!w-[80%] !mx-auto">
+                        <textarea
+                          name="mensaje"
+                          id=""
+                          cols="30"
+                          rows="10"
+                          placeholder="Mensaje:"
+                          class="!w-full"
+                        ></textarea>
+                      </div>
                     </div>
                     <div class="btn">
                       <button type="submit" class="azul">
@@ -213,505 +305,6 @@
                   >
                     <img src="img/icon-instagram.svg" alt="" />puntoazulperu
                   </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="locales" id="locales">
-        <div class="container">
-          <h2 data-aos="" class="textoblur izquierda" data-aos-once="true">
-            Nuestros locales
-          </h2>
-          <div class="contentLocales">
-            <div class="item">
-              <div class="part1">
-                <div class="contentImg">
-                  <img
-                    src="img/local-1.webp"
-                    alt=""
-                    data-aos=""
-                    class="animacionBlur"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                </div>
-              </div>
-              <div class="part2">
-                <div class="tabs">
-                  <div
-                    data-aos=""
-                    class="textoblur derecha tab"
-                    data-aos-once="true"
-                  >
-                    <div class="cabecera">
-                      <h3>San Isidro</h3>
-                      <p>Autoservicio y Recojo en tienda</p>
-                    </div>
-                    <div class="cuerpo">
-                      <div class="direccion">
-                        <p>
-                          <img src="img/icon-ubicacion.svg" alt="" />Esq. Javier
-                          Prado con Petit Thouars
-                        </p>
-                      </div>
-                      <div class="buttons">
-                        <a
-                          href="https://maps.app.goo.gl/kraqPnTT1wktdPHq7"
-                          class="azul"
-                          target="_blank"
-                          ><span>Ver mapa</span
-                          ><svg
-                            width="11"
-                            height="10"
-                            viewBox="0 0 11 10"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M6.18937 9.76505C6.12354 9.69473 6.08656 9.59942 6.08656 9.50005C6.08656 9.40067 6.12354 9.30536 6.18937 9.23505L9.80754 5.37505L0.34406 5.37504C0.25082 5.37504 0.161398 5.33554 0.0954673 5.26521C0.029537 5.19488 -0.00750277 5.0995 -0.00750277 5.00004C-0.00750276 4.90059 0.029537 4.80521 0.0954674 4.73488C0.161398 4.66455 0.25082 4.62504 0.34406 4.62504L9.80754 4.62505L6.18937 0.765045C6.12727 0.693958 6.09346 0.599934 6.09507 0.502784C6.09668 0.405633 6.13357 0.312941 6.19799 0.244234C6.2624 0.175528 6.3493 0.136172 6.44038 0.134458C6.53146 0.132744 6.6196 0.168805 6.68625 0.235045L10.905 4.73505C10.9708 4.80536 11.0078 4.90067 11.0078 5.00005C11.0078 5.09942 10.9708 5.19473 10.905 5.26505L6.68625 9.76505C6.62033 9.83527 6.53097 9.87472 6.43781 9.87472C6.34465 9.87472 6.25529 9.83527 6.18937 9.76505Z"
-                              fill="#FAF5EF"
-                            /></svg
-                        ></a>
-                        <a
-                          href="https://ul.waze.com/ul?place=ChIJralaRGfIBZERQNqvaZxldKk&ll=-12.09203080%2C-77.03252920&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
-                          class="blanco"
-                          target="_blank"
-                          ><span>¿Como llegar?</span
-                          ><svg
-                            width="20"
-                            height="18"
-                            viewBox="0 0 20 18"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M18.5402 3.63C19.2302 4.57 19.6902 5.67 19.8902 6.82C20.1002 8.07 20.0002 9.34 19.5802 10.54C19.1819 11.7122 18.494 12.7647 17.5802 13.6C16.9115 14.2384 16.1494 14.7712 15.3202 15.18C15.7302 16.25 15.1902 17.45 14.1202 17.86C13.8802 17.95 13.6302 18 13.3802 18C12.8439 17.9978 12.3291 17.7885 11.9434 17.4159C11.5577 17.0432 11.3308 16.5359 11.3102 16H8.24019C8.13019 17.14 7.11019 18 5.97019 17.87C4.91019 17.77 4.11019 16.89 4.09019 15.83C4.10019 15.64 4.13019 15.44 4.19019 15.26C2.60186 14.7314 1.20852 13.7386 0.190188 12.41C-0.139812 11.97 -0.0398116 11.34 0.420188 11C0.600188 10.86 0.820188 10.78 1.05019 10.78C1.77019 10.78 2.05019 10.53 2.22019 10.15C2.46019 9.43 2.60019 8.68 2.61019 7.92C2.64019 7.39 2.70019 6.87 2.78019 6.35C3.13128 4.6189 4.09755 3.07358 5.50019 2C7.16019 0.7 9.19019 0 11.2902 0C12.7202 0 14.1302 0.35 15.4002 1C16.6419 1.6133 17.7186 2.51513 18.5402 3.63ZM14.7202 14.31C16.5002 13.5 17.9002 12.04 18.5902 10.21C20.2102 5.27 16.0002 1.05 11.2902 1.05C10.9402 1.05 10.5802 1.07 10.2302 1.12C7.36019 1.5 4.40019 3.5 3.81019 6.5C3.43019 8.5 4.00019 11.79 1.05019 11.79C2.00019 13 3.32019 13.93 4.81019 14.37C5.66019 13.61 6.97019 13.69 7.74019 14.55C7.85019 14.67 7.94019 14.8 8.00019 14.94H11.5502C12.0702 13.92 13.3302 13.5 14.3502 14.04C14.5002 14.12 14.6002 14.21 14.7202 14.31ZM8.97019 7.31C8.39019 7.34 7.88019 6.9 7.85019 6.31C7.82019 5.73 8.27019 5.23 8.85019 5.19C9.43019 5.16 9.94019 5.61 9.97019 6.25C9.97567 6.38219 9.95484 6.51416 9.90891 6.63824C9.86297 6.76231 9.79285 6.87603 9.7026 6.97278C9.61236 7.06954 9.5038 7.1474 9.38322 7.20186C9.26264 7.25631 9.13244 7.28627 9.00019 7.29L8.97019 7.31ZM13.6602 7.31C13.0802 7.34 12.5702 6.9 12.5402 6.31C12.5002 5.73 12.9602 5.23 13.5402 5.19C14.1202 5.16 14.6302 5.61 14.6602 6.25C14.6802 6.8 14.2502 7.27 13.6602 7.29V7.31ZM7.71019 9.07C7.65019 8.79 7.84019 8.5 8.12019 8.45C8.40019 8.4 8.68019 8.58 8.74019 8.86C8.91041 9.39885 9.2581 9.86417 9.72661 10.1801C10.1951 10.4961 10.7568 10.6441 11.3202 10.6C12.4602 10.66 13.5002 9.96 13.8902 8.88C14.0302 8.62 14.3502 8.5 14.6002 8.65C14.7802 8.75 14.8902 8.92 14.8902 9.12C14.7002 9.83 14.2602 10.45 13.6602 10.88C12.9702 11.36 12.1602 11.63 11.3202 11.64H11.2102C9.58019 11.71 8.11019 10.64 7.68019 9.06L7.71019 9.07Z"
-                              fill="#00BDF2"
-                            /></svg
-                        ></a>
-                      </div>
-                      <div class="telefono">
-                        <p>
-                          <img src="img/icon-telefono-gris.svg" alt="" /><a
-                            href="tel:(01) 480 1165"
-                            >(01) 480 1165</a
-                          >
-                          – <a href="tel:(01) 221 3747">(01) 221 3747</a>
-                        </p>
-                      </div>
-                      <div class="horario">
-                        <img src="img/icon-calendario.svg" alt="" />
-                        <div class="text">
-                          <p>Lunes a Sábado: 11 a.m. a 4 p.m.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="part1">
-                <div class="contentImg">
-                  <img
-                    src="img/local2.webp"
-                    alt=""
-                    data-aos=""
-                    class="animacionBlur"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="img/restaurant-santiago-surco-caminos-del-inca.webp"
-                    alt=""
-                    data-aos=""
-                    class="animacionBlur"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                </div>
-              </div>
-              <div class="part2">
-                <div class="tabs">
-                  <div
-                    data-aos=""
-                    class="textoblur derecha tab"
-                    data-aos-once="true"
-                  >
-                    <div class="cabecera">
-                      <h3>Santiago de Surco</h3>
-                      <p>Salón y Recojo en tienda</p>
-                    </div>
-                    <div class="cuerpo">
-                      <div class="direccion">
-                        <p>
-                          <img src="img/icon-ubicacion.svg" alt="" />Av.
-                          Primavera 2235
-                        </p>
-                      </div>
-                      <div class="buttons">
-                        <a
-                          href="https://maps.app.goo.gl/fDgaPoYK4swDuFQy8"
-                          class="azul"
-                          target="_blank"
-                          ><span>Ver mapa</span
-                          ><svg
-                            width="11"
-                            height="10"
-                            viewBox="0 0 11 10"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M6.18937 9.76505C6.12354 9.69473 6.08656 9.59942 6.08656 9.50005C6.08656 9.40067 6.12354 9.30536 6.18937 9.23505L9.80754 5.37505L0.34406 5.37504C0.25082 5.37504 0.161398 5.33554 0.0954673 5.26521C0.029537 5.19488 -0.00750277 5.0995 -0.00750277 5.00004C-0.00750276 4.90059 0.029537 4.80521 0.0954674 4.73488C0.161398 4.66455 0.25082 4.62504 0.34406 4.62504L9.80754 4.62505L6.18937 0.765045C6.12727 0.693958 6.09346 0.599934 6.09507 0.502784C6.09668 0.405633 6.13357 0.312941 6.19799 0.244234C6.2624 0.175528 6.3493 0.136172 6.44038 0.134458C6.53146 0.132744 6.6196 0.168805 6.68625 0.235045L10.905 4.73505C10.9708 4.80536 11.0078 4.90067 11.0078 5.00005C11.0078 5.09942 10.9708 5.19473 10.905 5.26505L6.68625 9.76505C6.62033 9.83527 6.53097 9.87472 6.43781 9.87472C6.34465 9.87472 6.25529 9.83527 6.18937 9.76505Z"
-                              fill="#FAF5EF"
-                            /></svg
-                        ></a>
-                        <a href="" class="blanco" target="_blank"
-                          ><span>¿Como llegar?</span
-                          ><svg
-                            width="20"
-                            height="18"
-                            viewBox="0 0 20 18"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M18.5402 3.63C19.2302 4.57 19.6902 5.67 19.8902 6.82C20.1002 8.07 20.0002 9.34 19.5802 10.54C19.1819 11.7122 18.494 12.7647 17.5802 13.6C16.9115 14.2384 16.1494 14.7712 15.3202 15.18C15.7302 16.25 15.1902 17.45 14.1202 17.86C13.8802 17.95 13.6302 18 13.3802 18C12.8439 17.9978 12.3291 17.7885 11.9434 17.4159C11.5577 17.0432 11.3308 16.5359 11.3102 16H8.24019C8.13019 17.14 7.11019 18 5.97019 17.87C4.91019 17.77 4.11019 16.89 4.09019 15.83C4.10019 15.64 4.13019 15.44 4.19019 15.26C2.60186 14.7314 1.20852 13.7386 0.190188 12.41C-0.139812 11.97 -0.0398116 11.34 0.420188 11C0.600188 10.86 0.820188 10.78 1.05019 10.78C1.77019 10.78 2.05019 10.53 2.22019 10.15C2.46019 9.43 2.60019 8.68 2.61019 7.92C2.64019 7.39 2.70019 6.87 2.78019 6.35C3.13128 4.6189 4.09755 3.07358 5.50019 2C7.16019 0.7 9.19019 0 11.2902 0C12.7202 0 14.1302 0.35 15.4002 1C16.6419 1.6133 17.7186 2.51513 18.5402 3.63ZM14.7202 14.31C16.5002 13.5 17.9002 12.04 18.5902 10.21C20.2102 5.27 16.0002 1.05 11.2902 1.05C10.9402 1.05 10.5802 1.07 10.2302 1.12C7.36019 1.5 4.40019 3.5 3.81019 6.5C3.43019 8.5 4.00019 11.79 1.05019 11.79C2.00019 13 3.32019 13.93 4.81019 14.37C5.66019 13.61 6.97019 13.69 7.74019 14.55C7.85019 14.67 7.94019 14.8 8.00019 14.94H11.5502C12.0702 13.92 13.3302 13.5 14.3502 14.04C14.5002 14.12 14.6002 14.21 14.7202 14.31ZM8.97019 7.31C8.39019 7.34 7.88019 6.9 7.85019 6.31C7.82019 5.73 8.27019 5.23 8.85019 5.19C9.43019 5.16 9.94019 5.61 9.97019 6.25C9.97567 6.38219 9.95484 6.51416 9.90891 6.63824C9.86297 6.76231 9.79285 6.87603 9.7026 6.97278C9.61236 7.06954 9.5038 7.1474 9.38322 7.20186C9.26264 7.25631 9.13244 7.28627 9.00019 7.29L8.97019 7.31ZM13.6602 7.31C13.0802 7.34 12.5702 6.9 12.5402 6.31C12.5002 5.73 12.9602 5.23 13.5402 5.19C14.1202 5.16 14.6302 5.61 14.6602 6.25C14.6802 6.8 14.2502 7.27 13.6602 7.29V7.31ZM7.71019 9.07C7.65019 8.79 7.84019 8.5 8.12019 8.45C8.40019 8.4 8.68019 8.58 8.74019 8.86C8.91041 9.39885 9.2581 9.86417 9.72661 10.1801C10.1951 10.4961 10.7568 10.6441 11.3202 10.6C12.4602 10.66 13.5002 9.96 13.8902 8.88C14.0302 8.62 14.3502 8.5 14.6002 8.65C14.7802 8.75 14.8902 8.92 14.8902 9.12C14.7002 9.83 14.2602 10.45 13.6602 10.88C12.9702 11.36 12.1602 11.63 11.3202 11.64H11.2102C9.58019 11.71 8.11019 10.64 7.68019 9.06L7.71019 9.07Z"
-                              fill="#00BDF2"
-                            /></svg
-                        ></a>
-                      </div>
-                      <div class="telefono">
-                        <p>
-                          <img src="img/icon-telefono-gris.svg" alt="" /><a
-                            href="tel:(01) 480 1165"
-                            >(01) 480 1165</a
-                          >
-                          – <a href="tel:(01) 435 8656">(01) 435 8656</a>
-                        </p>
-                      </div>
-                      <div class="horario">
-                        <img src="img/icon-calendario.svg" alt="" />
-                        <div class="text">
-                          <p>Martes a Domingo: 11 a.m. a 4 p.m.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    data-aos=""
-                    class="textoblur derecha tab"
-                    data-aos-once="true"
-                  >
-                    <div class="cabecera">
-                      <h3>Santiago de Surco - Caminos del Inca</h3>
-                      <p>Salón y Recojo en tienda</p>
-                    </div>
-                    <div class="cuerpo">
-                      <div class="direccion">
-                        <p>
-                          <img src="img/icon-ubicacion.svg" alt="" />Av. Caminos
-                          del Inca 853
-                        </p>
-                      </div>
-                      <div class="buttons">
-                        <a
-                          href="https://maps.app.goo.gl/EwyiKqknAdgwUt716"
-                          class="azul"
-                          target="_blank"
-                          ><span>Ver mapa</span
-                          ><svg
-                            width="11"
-                            height="10"
-                            viewBox="0 0 11 10"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M6.18937 9.76505C6.12354 9.69473 6.08656 9.59942 6.08656 9.50005C6.08656 9.40067 6.12354 9.30536 6.18937 9.23505L9.80754 5.37505L0.34406 5.37504C0.25082 5.37504 0.161398 5.33554 0.0954673 5.26521C0.029537 5.19488 -0.00750277 5.0995 -0.00750277 5.00004C-0.00750276 4.90059 0.029537 4.80521 0.0954674 4.73488C0.161398 4.66455 0.25082 4.62504 0.34406 4.62504L9.80754 4.62505L6.18937 0.765045C6.12727 0.693958 6.09346 0.599934 6.09507 0.502784C6.09668 0.405633 6.13357 0.312941 6.19799 0.244234C6.2624 0.175528 6.3493 0.136172 6.44038 0.134458C6.53146 0.132744 6.6196 0.168805 6.68625 0.235045L10.905 4.73505C10.9708 4.80536 11.0078 4.90067 11.0078 5.00005C11.0078 5.09942 10.9708 5.19473 10.905 5.26505L6.68625 9.76505C6.62033 9.83527 6.53097 9.87472 6.43781 9.87472C6.34465 9.87472 6.25529 9.83527 6.18937 9.76505Z"
-                              fill="#FAF5EF"
-                            /></svg
-                        ></a>
-                        <a
-                          href="https://ul.waze.com/ul?place=ChIJI5SR3PLHBZERM4_kXiF3tWY&ll=-12.11923300%2C-76.98849120&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
-                          class="blanco"
-                          target="_blank"
-                          ><span>¿Como llegar?</span
-                          ><svg
-                            width="20"
-                            height="18"
-                            viewBox="0 0 20 18"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M18.5402 3.63C19.2302 4.57 19.6902 5.67 19.8902 6.82C20.1002 8.07 20.0002 9.34 19.5802 10.54C19.1819 11.7122 18.494 12.7647 17.5802 13.6C16.9115 14.2384 16.1494 14.7712 15.3202 15.18C15.7302 16.25 15.1902 17.45 14.1202 17.86C13.8802 17.95 13.6302 18 13.3802 18C12.8439 17.9978 12.3291 17.7885 11.9434 17.4159C11.5577 17.0432 11.3308 16.5359 11.3102 16H8.24019C8.13019 17.14 7.11019 18 5.97019 17.87C4.91019 17.77 4.11019 16.89 4.09019 15.83C4.10019 15.64 4.13019 15.44 4.19019 15.26C2.60186 14.7314 1.20852 13.7386 0.190188 12.41C-0.139812 11.97 -0.0398116 11.34 0.420188 11C0.600188 10.86 0.820188 10.78 1.05019 10.78C1.77019 10.78 2.05019 10.53 2.22019 10.15C2.46019 9.43 2.60019 8.68 2.61019 7.92C2.64019 7.39 2.70019 6.87 2.78019 6.35C3.13128 4.6189 4.09755 3.07358 5.50019 2C7.16019 0.7 9.19019 0 11.2902 0C12.7202 0 14.1302 0.35 15.4002 1C16.6419 1.6133 17.7186 2.51513 18.5402 3.63ZM14.7202 14.31C16.5002 13.5 17.9002 12.04 18.5902 10.21C20.2102 5.27 16.0002 1.05 11.2902 1.05C10.9402 1.05 10.5802 1.07 10.2302 1.12C7.36019 1.5 4.40019 3.5 3.81019 6.5C3.43019 8.5 4.00019 11.79 1.05019 11.79C2.00019 13 3.32019 13.93 4.81019 14.37C5.66019 13.61 6.97019 13.69 7.74019 14.55C7.85019 14.67 7.94019 14.8 8.00019 14.94H11.5502C12.0702 13.92 13.3302 13.5 14.3502 14.04C14.5002 14.12 14.6002 14.21 14.7202 14.31ZM8.97019 7.31C8.39019 7.34 7.88019 6.9 7.85019 6.31C7.82019 5.73 8.27019 5.23 8.85019 5.19C9.43019 5.16 9.94019 5.61 9.97019 6.25C9.97567 6.38219 9.95484 6.51416 9.90891 6.63824C9.86297 6.76231 9.79285 6.87603 9.7026 6.97278C9.61236 7.06954 9.5038 7.1474 9.38322 7.20186C9.26264 7.25631 9.13244 7.28627 9.00019 7.29L8.97019 7.31ZM13.6602 7.31C13.0802 7.34 12.5702 6.9 12.5402 6.31C12.5002 5.73 12.9602 5.23 13.5402 5.19C14.1202 5.16 14.6302 5.61 14.6602 6.25C14.6802 6.8 14.2502 7.27 13.6602 7.29V7.31ZM7.71019 9.07C7.65019 8.79 7.84019 8.5 8.12019 8.45C8.40019 8.4 8.68019 8.58 8.74019 8.86C8.91041 9.39885 9.2581 9.86417 9.72661 10.1801C10.1951 10.4961 10.7568 10.6441 11.3202 10.6C12.4602 10.66 13.5002 9.96 13.8902 8.88C14.0302 8.62 14.3502 8.5 14.6002 8.65C14.7802 8.75 14.8902 8.92 14.8902 9.12C14.7002 9.83 14.2602 10.45 13.6602 10.88C12.9702 11.36 12.1602 11.63 11.3202 11.64H11.2102C9.58019 11.71 8.11019 10.64 7.68019 9.06L7.71019 9.07Z"
-                              fill="#00BDF2"
-                            /></svg
-                        ></a>
-                      </div>
-                      <div class="telefono">
-                        <p>
-                          <img src="img/icon-telefono-gris.svg" alt="" /><a
-                            href="tel:(01) 480 1165"
-                            >(01) 480 1165</a
-                          >
-                          – <a href="tel:(01) 2670745">(01) 2670745</a>
-                        </p>
-                      </div>
-                      <div class="horario">
-                        <img src="img/icon-calendario.svg" alt="" />
-                        <div class="text">
-                          <p>Martes a Domingo: 11 a.m. a 4 p.m.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="part1">
-                <div class="contentImg">
-                  <img
-                    src="img/local3.webp"
-                    alt=""
-                    data-aos=""
-                    class="animacionBlur"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="img/restaurant-miraflores-sanmartin.webp"
-                    alt=""
-                    data-aos=""
-                    class="animacionBlur"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="img/restaurant-jorge-chavez.webp"
-                    alt=""
-                    data-aos=""
-                    class="animacionBlur"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                </div>
-              </div>
-              <div class="part2">
-                <div class="tabs">
-                  <div
-                    data-aos=""
-                    class="textoblur derecha tab"
-                    data-aos-once="true"
-                  >
-                    <div class="cabecera">
-                      <h3>Miraflores - Benavides</h3>
-                      <p>Salón y Recojo en tienda</p>
-                    </div>
-                    <div class="cuerpo">
-                      <div class="direccion">
-                        <p>
-                          <img src="img/icon-ubicacion.svg" alt="" />Av.
-                          Benavides 2370
-                        </p>
-                      </div>
-                      <div class="buttons">
-                        <a
-                          href="https://maps.app.goo.gl/ASjaA2D8BWntAhst7"
-                          class="azul"
-                          target="_blank"
-                          ><span>Ver mapa</span
-                          ><svg
-                            width="11"
-                            height="10"
-                            viewBox="0 0 11 10"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M6.18937 9.76505C6.12354 9.69473 6.08656 9.59942 6.08656 9.50005C6.08656 9.40067 6.12354 9.30536 6.18937 9.23505L9.80754 5.37505L0.34406 5.37504C0.25082 5.37504 0.161398 5.33554 0.0954673 5.26521C0.029537 5.19488 -0.00750277 5.0995 -0.00750277 5.00004C-0.00750276 4.90059 0.029537 4.80521 0.0954674 4.73488C0.161398 4.66455 0.25082 4.62504 0.34406 4.62504L9.80754 4.62505L6.18937 0.765045C6.12727 0.693958 6.09346 0.599934 6.09507 0.502784C6.09668 0.405633 6.13357 0.312941 6.19799 0.244234C6.2624 0.175528 6.3493 0.136172 6.44038 0.134458C6.53146 0.132744 6.6196 0.168805 6.68625 0.235045L10.905 4.73505C10.9708 4.80536 11.0078 4.90067 11.0078 5.00005C11.0078 5.09942 10.9708 5.19473 10.905 5.26505L6.68625 9.76505C6.62033 9.83527 6.53097 9.87472 6.43781 9.87472C6.34465 9.87472 6.25529 9.83527 6.18937 9.76505Z"
-                              fill="#FAF5EF"
-                            /></svg
-                        ></a>
-                        <a
-                          href="https://ul.waze.com/ul?preview_venue_id=185468559.1854620051.4474102&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
-                          class="blanco"
-                          target="_blank"
-                          ><span>¿Como llegar?</span
-                          ><svg
-                            width="20"
-                            height="18"
-                            viewBox="0 0 20 18"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M18.5402 3.63C19.2302 4.57 19.6902 5.67 19.8902 6.82C20.1002 8.07 20.0002 9.34 19.5802 10.54C19.1819 11.7122 18.494 12.7647 17.5802 13.6C16.9115 14.2384 16.1494 14.7712 15.3202 15.18C15.7302 16.25 15.1902 17.45 14.1202 17.86C13.8802 17.95 13.6302 18 13.3802 18C12.8439 17.9978 12.3291 17.7885 11.9434 17.4159C11.5577 17.0432 11.3308 16.5359 11.3102 16H8.24019C8.13019 17.14 7.11019 18 5.97019 17.87C4.91019 17.77 4.11019 16.89 4.09019 15.83C4.10019 15.64 4.13019 15.44 4.19019 15.26C2.60186 14.7314 1.20852 13.7386 0.190188 12.41C-0.139812 11.97 -0.0398116 11.34 0.420188 11C0.600188 10.86 0.820188 10.78 1.05019 10.78C1.77019 10.78 2.05019 10.53 2.22019 10.15C2.46019 9.43 2.60019 8.68 2.61019 7.92C2.64019 7.39 2.70019 6.87 2.78019 6.35C3.13128 4.6189 4.09755 3.07358 5.50019 2C7.16019 0.7 9.19019 0 11.2902 0C12.7202 0 14.1302 0.35 15.4002 1C16.6419 1.6133 17.7186 2.51513 18.5402 3.63ZM14.7202 14.31C16.5002 13.5 17.9002 12.04 18.5902 10.21C20.2102 5.27 16.0002 1.05 11.2902 1.05C10.9402 1.05 10.5802 1.07 10.2302 1.12C7.36019 1.5 4.40019 3.5 3.81019 6.5C3.43019 8.5 4.00019 11.79 1.05019 11.79C2.00019 13 3.32019 13.93 4.81019 14.37C5.66019 13.61 6.97019 13.69 7.74019 14.55C7.85019 14.67 7.94019 14.8 8.00019 14.94H11.5502C12.0702 13.92 13.3302 13.5 14.3502 14.04C14.5002 14.12 14.6002 14.21 14.7202 14.31ZM8.97019 7.31C8.39019 7.34 7.88019 6.9 7.85019 6.31C7.82019 5.73 8.27019 5.23 8.85019 5.19C9.43019 5.16 9.94019 5.61 9.97019 6.25C9.97567 6.38219 9.95484 6.51416 9.90891 6.63824C9.86297 6.76231 9.79285 6.87603 9.7026 6.97278C9.61236 7.06954 9.5038 7.1474 9.38322 7.20186C9.26264 7.25631 9.13244 7.28627 9.00019 7.29L8.97019 7.31ZM13.6602 7.31C13.0802 7.34 12.5702 6.9 12.5402 6.31C12.5002 5.73 12.9602 5.23 13.5402 5.19C14.1202 5.16 14.6302 5.61 14.6602 6.25C14.6802 6.8 14.2502 7.27 13.6602 7.29V7.31ZM7.71019 9.07C7.65019 8.79 7.84019 8.5 8.12019 8.45C8.40019 8.4 8.68019 8.58 8.74019 8.86C8.91041 9.39885 9.2581 9.86417 9.72661 10.1801C10.1951 10.4961 10.7568 10.6441 11.3202 10.6C12.4602 10.66 13.5002 9.96 13.8902 8.88C14.0302 8.62 14.3502 8.5 14.6002 8.65C14.7802 8.75 14.8902 8.92 14.8902 9.12C14.7002 9.83 14.2602 10.45 13.6602 10.88C12.9702 11.36 12.1602 11.63 11.3202 11.64H11.2102C9.58019 11.71 8.11019 10.64 7.68019 9.06L7.71019 9.07Z"
-                              fill="#00BDF2"
-                            /></svg
-                        ></a>
-                      </div>
-                      <div class="telefono">
-                        <p>
-                          <img src="img/icon-telefono-gris.svg" alt="" /><a
-                            href="tel:(01) 480 1165"
-                            >(01) 480 1165</a
-                          >
-                          – <a href="tel:(01) 764 2145">(01) 764 2145</a>
-                        </p>
-                      </div>
-                      <div class="horario">
-                        <img src="img/icon-calendario.svg" alt="" />
-                        <div class="text">
-                          <p>Martes a Domingo: 11 a.m. a 4 p.m.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    data-aos=""
-                    class="textoblur derecha tab"
-                    data-aos-once="true"
-                  >
-                    <div class="cabecera">
-                      <h3>Miraflores - San Martín</h3>
-                      <p>Salón y Recojo en tienda</p>
-                    </div>
-                    <div class="cuerpo">
-                      <div class="direccion">
-                        <p>
-                          <img src="img/icon-ubicacion.svg" alt="" />Ca. San
-                          Martín 595
-                        </p>
-                      </div>
-                      <div class="buttons">
-                        <a
-                          href="https://maps.app.goo.gl/RNTF1HDa4NJjJ25W7"
-                          class="azul"
-                          target="_blank"
-                          ><span>Ver mapa</span
-                          ><svg
-                            width="11"
-                            height="10"
-                            viewBox="0 0 11 10"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M6.18937 9.76505C6.12354 9.69473 6.08656 9.59942 6.08656 9.50005C6.08656 9.40067 6.12354 9.30536 6.18937 9.23505L9.80754 5.37505L0.34406 5.37504C0.25082 5.37504 0.161398 5.33554 0.0954673 5.26521C0.029537 5.19488 -0.00750277 5.0995 -0.00750277 5.00004C-0.00750276 4.90059 0.029537 4.80521 0.0954674 4.73488C0.161398 4.66455 0.25082 4.62504 0.34406 4.62504L9.80754 4.62505L6.18937 0.765045C6.12727 0.693958 6.09346 0.599934 6.09507 0.502784C6.09668 0.405633 6.13357 0.312941 6.19799 0.244234C6.2624 0.175528 6.3493 0.136172 6.44038 0.134458C6.53146 0.132744 6.6196 0.168805 6.68625 0.235045L10.905 4.73505C10.9708 4.80536 11.0078 4.90067 11.0078 5.00005C11.0078 5.09942 10.9708 5.19473 10.905 5.26505L6.68625 9.76505C6.62033 9.83527 6.53097 9.87472 6.43781 9.87472C6.34465 9.87472 6.25529 9.83527 6.18937 9.76505Z"
-                              fill="#FAF5EF"
-                            /></svg
-                        ></a>
-                        <a
-                          href="https://ul.waze.com/ul?preview_venue_id=185468559.1854488979.3242046&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
-                          class="blanco"
-                          target="_blank"
-                          ><span>¿Como llegar?</span
-                          ><svg
-                            width="20"
-                            height="18"
-                            viewBox="0 0 20 18"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M18.5402 3.63C19.2302 4.57 19.6902 5.67 19.8902 6.82C20.1002 8.07 20.0002 9.34 19.5802 10.54C19.1819 11.7122 18.494 12.7647 17.5802 13.6C16.9115 14.2384 16.1494 14.7712 15.3202 15.18C15.7302 16.25 15.1902 17.45 14.1202 17.86C13.8802 17.95 13.6302 18 13.3802 18C12.8439 17.9978 12.3291 17.7885 11.9434 17.4159C11.5577 17.0432 11.3308 16.5359 11.3102 16H8.24019C8.13019 17.14 7.11019 18 5.97019 17.87C4.91019 17.77 4.11019 16.89 4.09019 15.83C4.10019 15.64 4.13019 15.44 4.19019 15.26C2.60186 14.7314 1.20852 13.7386 0.190188 12.41C-0.139812 11.97 -0.0398116 11.34 0.420188 11C0.600188 10.86 0.820188 10.78 1.05019 10.78C1.77019 10.78 2.05019 10.53 2.22019 10.15C2.46019 9.43 2.60019 8.68 2.61019 7.92C2.64019 7.39 2.70019 6.87 2.78019 6.35C3.13128 4.6189 4.09755 3.07358 5.50019 2C7.16019 0.7 9.19019 0 11.2902 0C12.7202 0 14.1302 0.35 15.4002 1C16.6419 1.6133 17.7186 2.51513 18.5402 3.63ZM14.7202 14.31C16.5002 13.5 17.9002 12.04 18.5902 10.21C20.2102 5.27 16.0002 1.05 11.2902 1.05C10.9402 1.05 10.5802 1.07 10.2302 1.12C7.36019 1.5 4.40019 3.5 3.81019 6.5C3.43019 8.5 4.00019 11.79 1.05019 11.79C2.00019 13 3.32019 13.93 4.81019 14.37C5.66019 13.61 6.97019 13.69 7.74019 14.55C7.85019 14.67 7.94019 14.8 8.00019 14.94H11.5502C12.0702 13.92 13.3302 13.5 14.3502 14.04C14.5002 14.12 14.6002 14.21 14.7202 14.31ZM8.97019 7.31C8.39019 7.34 7.88019 6.9 7.85019 6.31C7.82019 5.73 8.27019 5.23 8.85019 5.19C9.43019 5.16 9.94019 5.61 9.97019 6.25C9.97567 6.38219 9.95484 6.51416 9.90891 6.63824C9.86297 6.76231 9.79285 6.87603 9.7026 6.97278C9.61236 7.06954 9.5038 7.1474 9.38322 7.20186C9.26264 7.25631 9.13244 7.28627 9.00019 7.29L8.97019 7.31ZM13.6602 7.31C13.0802 7.34 12.5702 6.9 12.5402 6.31C12.5002 5.73 12.9602 5.23 13.5402 5.19C14.1202 5.16 14.6302 5.61 14.6602 6.25C14.6802 6.8 14.2502 7.27 13.6602 7.29V7.31ZM7.71019 9.07C7.65019 8.79 7.84019 8.5 8.12019 8.45C8.40019 8.4 8.68019 8.58 8.74019 8.86C8.91041 9.39885 9.2581 9.86417 9.72661 10.1801C10.1951 10.4961 10.7568 10.6441 11.3202 10.6C12.4602 10.66 13.5002 9.96 13.8902 8.88C14.0302 8.62 14.3502 8.5 14.6002 8.65C14.7802 8.75 14.8902 8.92 14.8902 9.12C14.7002 9.83 14.2602 10.45 13.6602 10.88C12.9702 11.36 12.1602 11.63 11.3202 11.64H11.2102C9.58019 11.71 8.11019 10.64 7.68019 9.06L7.71019 9.07Z"
-                              fill="#00BDF2"
-                            /></svg
-                        ></a>
-                      </div>
-                      <div class="telefono">
-                        <p>
-                          <img src="img/icon-telefono-gris.svg" alt="" /><a
-                            href="tel:(01) 480 1165"
-                            >(01) 480 1165</a
-                          >
-                          – <a href="tel:(01) 445 8078">(01) 445 8078</a>
-                        </p>
-                      </div>
-                      <div class="horario">
-                        <img src="img/icon-calendario.svg" alt="" />
-                        <div class="text">
-                          <p>Lunes: 12 p.m. a 12 a.m.</p>
-                          <p>Martes a Sabado: 11 a.m. a 12 p.m.</p>
-                          <p>Domingo: 11 a.m. a 4 p.m.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    data-aos=""
-                    class="textoblur derecha tab"
-                    data-aos-once="true"
-                  >
-                    <div class="cabecera">
-                      <h3>Miraflores - Jorge Chávez</h3>
-                      <p>Salón y Recojo en tienda</p>
-                    </div>
-                    <div class="cuerpo">
-                      <div class="direccion">
-                        <p>
-                          <img src="img/icon-ubicacion.svg" alt="" />Ca. Jorge
-                          Chávez 230
-                        </p>
-                      </div>
-                      <div class="buttons">
-                        <a
-                          href="https://maps.app.goo.gl/zf2jXnKT97B4G8Xt6"
-                          class="azul"
-                          target="_blank"
-                          ><span>Ver mapa</span
-                          ><svg
-                            width="11"
-                            height="10"
-                            viewBox="0 0 11 10"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M6.18937 9.76505C6.12354 9.69473 6.08656 9.59942 6.08656 9.50005C6.08656 9.40067 6.12354 9.30536 6.18937 9.23505L9.80754 5.37505L0.34406 5.37504C0.25082 5.37504 0.161398 5.33554 0.0954673 5.26521C0.029537 5.19488 -0.00750277 5.0995 -0.00750277 5.00004C-0.00750276 4.90059 0.029537 4.80521 0.0954674 4.73488C0.161398 4.66455 0.25082 4.62504 0.34406 4.62504L9.80754 4.62505L6.18937 0.765045C6.12727 0.693958 6.09346 0.599934 6.09507 0.502784C6.09668 0.405633 6.13357 0.312941 6.19799 0.244234C6.2624 0.175528 6.3493 0.136172 6.44038 0.134458C6.53146 0.132744 6.6196 0.168805 6.68625 0.235045L10.905 4.73505C10.9708 4.80536 11.0078 4.90067 11.0078 5.00005C11.0078 5.09942 10.9708 5.19473 10.905 5.26505L6.68625 9.76505C6.62033 9.83527 6.53097 9.87472 6.43781 9.87472C6.34465 9.87472 6.25529 9.83527 6.18937 9.76505Z"
-                              fill="#FAF5EF"
-                            /></svg
-                        ></a>
-                        <a
-                          href="https://ul.waze.com/ul?preview_venue_id=185468559.1854423444.22820248&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
-                          class="blanco"
-                          target="_blank"
-                          ><span>¿Como llegar?</span
-                          ><svg
-                            width="20"
-                            height="18"
-                            viewBox="0 0 20 18"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M18.5402 3.63C19.2302 4.57 19.6902 5.67 19.8902 6.82C20.1002 8.07 20.0002 9.34 19.5802 10.54C19.1819 11.7122 18.494 12.7647 17.5802 13.6C16.9115 14.2384 16.1494 14.7712 15.3202 15.18C15.7302 16.25 15.1902 17.45 14.1202 17.86C13.8802 17.95 13.6302 18 13.3802 18C12.8439 17.9978 12.3291 17.7885 11.9434 17.4159C11.5577 17.0432 11.3308 16.5359 11.3102 16H8.24019C8.13019 17.14 7.11019 18 5.97019 17.87C4.91019 17.77 4.11019 16.89 4.09019 15.83C4.10019 15.64 4.13019 15.44 4.19019 15.26C2.60186 14.7314 1.20852 13.7386 0.190188 12.41C-0.139812 11.97 -0.0398116 11.34 0.420188 11C0.600188 10.86 0.820188 10.78 1.05019 10.78C1.77019 10.78 2.05019 10.53 2.22019 10.15C2.46019 9.43 2.60019 8.68 2.61019 7.92C2.64019 7.39 2.70019 6.87 2.78019 6.35C3.13128 4.6189 4.09755 3.07358 5.50019 2C7.16019 0.7 9.19019 0 11.2902 0C12.7202 0 14.1302 0.35 15.4002 1C16.6419 1.6133 17.7186 2.51513 18.5402 3.63ZM14.7202 14.31C16.5002 13.5 17.9002 12.04 18.5902 10.21C20.2102 5.27 16.0002 1.05 11.2902 1.05C10.9402 1.05 10.5802 1.07 10.2302 1.12C7.36019 1.5 4.40019 3.5 3.81019 6.5C3.43019 8.5 4.00019 11.79 1.05019 11.79C2.00019 13 3.32019 13.93 4.81019 14.37C5.66019 13.61 6.97019 13.69 7.74019 14.55C7.85019 14.67 7.94019 14.8 8.00019 14.94H11.5502C12.0702 13.92 13.3302 13.5 14.3502 14.04C14.5002 14.12 14.6002 14.21 14.7202 14.31ZM8.97019 7.31C8.39019 7.34 7.88019 6.9 7.85019 6.31C7.82019 5.73 8.27019 5.23 8.85019 5.19C9.43019 5.16 9.94019 5.61 9.97019 6.25C9.97567 6.38219 9.95484 6.51416 9.90891 6.63824C9.86297 6.76231 9.79285 6.87603 9.7026 6.97278C9.61236 7.06954 9.5038 7.1474 9.38322 7.20186C9.26264 7.25631 9.13244 7.28627 9.00019 7.29L8.97019 7.31ZM13.6602 7.31C13.0802 7.34 12.5702 6.9 12.5402 6.31C12.5002 5.73 12.9602 5.23 13.5402 5.19C14.1202 5.16 14.6302 5.61 14.6602 6.25C14.6802 6.8 14.2502 7.27 13.6602 7.29V7.31ZM7.71019 9.07C7.65019 8.79 7.84019 8.5 8.12019 8.45C8.40019 8.4 8.68019 8.58 8.74019 8.86C8.91041 9.39885 9.2581 9.86417 9.72661 10.1801C10.1951 10.4961 10.7568 10.6441 11.3202 10.6C12.4602 10.66 13.5002 9.96 13.8902 8.88C14.0302 8.62 14.3502 8.5 14.6002 8.65C14.7802 8.75 14.8902 8.92 14.8902 9.12C14.7002 9.83 14.2602 10.45 13.6602 10.88C12.9702 11.36 12.1602 11.63 11.3202 11.64H11.2102C9.58019 11.71 8.11019 10.64 7.68019 9.06L7.71019 9.07Z"
-                              fill="#00BDF2"
-                            /></svg
-                        ></a>
-                      </div>
-                      <div class="telefono">
-                        <p>
-                          <img src="img/icon-telefono-gris.svg" alt="" /><a
-                            href="tel:(01) 480 1165"
-                            >(01) 480 1165</a
-                          >
-                        </p>
-                      </div>
-                      <div class="horario">
-                        <img src="img/icon-calendario.svg" alt="" />
-                        <div class="text">
-                          <p>Martes a Domingo: 11 a.m. a 4 p.m.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -880,6 +473,40 @@
         </p>
       </div>
     </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".rating-btn").forEach((button) => {
+          button.addEventListener("click", function () {
+            document.getElementById("rating-value").value =
+              this.getAttribute("data-value");
+
+            document.querySelectorAll(".rating-btn").forEach((btn) => {
+              btn.classList.remove(
+                "!bg-[#0072BC]",
+                "!text-white",
+                "!border-[#0072BC]"
+              );
+              btn.classList.add(
+                "!bg-white",
+                "!text-[#323232]",
+                "!border-gray-300"
+              );
+            });
+
+            this.classList.remove(
+              "!bg-white",
+              "!text-[#323232]",
+              "!border-gray-300"
+            );
+            this.classList.add(
+              "!bg-[#0072BC]",
+              "!text-white",
+              "!border-[#0072BC]"
+            );
+          });
+        });
+      });
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
