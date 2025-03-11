@@ -1,22 +1,16 @@
 @import "tailwindcss";
 
 @layer base {
-  :root {
-    --fuente-averia: "Averia Libre", system-ui;
-    --fuente-titillium: "Titillium Web", sans-serif;
-    --fuente-alegreya: "Alegreya Sans", sans-serif;
-  }
-
   .font-averia {
-    font-family: var(--fuente-averia);
+    font-family: "Averia Libre", system-ui;
   }
 
   .font-titillium {
-    font-family: var(--fuente-titillium);
+    font-family: "Titillium Web", sans-serif;
   }
 
   .font-alegreya {
-    font-family: var(--fuente-alegreya);
+    font-family: "Alegreya Sans", sans-serif;
   }
 
   img,
